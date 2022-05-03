@@ -20,5 +20,7 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("kr.ac.tukorea.greenapple.sidoli", appContext.packageName)
+
+        //jg push
     }
 }
